@@ -3,7 +3,7 @@ import './home.css'
 
 import Cookies from 'js-cookie';
 import Navbar from '../Navbar/Navbar.jsx';
-import Favoritespicks from '../EditorsPicks/favoritespicks.jsx';
+import Favoritespicks from "../EditorsPicks/Favoritespicks.jsx"
 import Categories from '../Generesmoods/Categories.jsx';
 import Newrelease from '../Newreleases/Newrelease.jsx';
 import { Navigate } from 'react-router';
