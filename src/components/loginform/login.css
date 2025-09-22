@@ -10,8 +10,9 @@
     align-items: center;
 }
 .formcard{
-    height: 60%;
-    width: 25%;
+    /* height: 100%; */
+    width: 100%;
+    max-width: 500px;
     background: rgba(0, 0, 0, 0.9); 
     padding: 20px;
     border-radius: 10px;
@@ -22,6 +23,7 @@
 .logoimg{
     height: 15%;
     width: 60%;
+    max-width: 150px;
     background-size: cover;
     margin-left: 40px;
 }
