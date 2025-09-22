@@ -1,0 +1,22 @@
+.Newrelease-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+}
+.Newrelease-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 85vw;
+  margin: 20px;
+}
+.card h1 {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+}
+.card {
+  width: 160px;
+}

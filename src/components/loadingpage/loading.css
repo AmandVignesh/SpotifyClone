@@ -1,0 +1,24 @@
+.Loading-container {
+    height: 90vh;
+    width: 100%;
+    background-color: black; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.Loading-animation {
+    height: 80px;
+    width: 160px;
+    background-image: url(https://res.cloudinary.com/dnx2ozxvd/image/upload/v1754323873/Screenshot_2025-08-04_214059_noxbua.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Loading-head {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px; 
+}

@@ -1,0 +1,20 @@
+.pagenot-found-container{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-404{
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+}
+.page-text{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}

@@ -1,0 +1,24 @@
+.categories-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+.Categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 20px;
+    
+}
+.card h1 {
+  font-size: 18px;
+  margin-top: 8px;
+  text-align: center;
+  color: white;
+  font-family: Roboto;
+}
+.categories-img{
+  width: 160px;
+  height: 160px;
+  border-radius: 8px;
+}
