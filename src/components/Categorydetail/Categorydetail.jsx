@@ -2,8 +2,8 @@ import React from 'react'
 import "./Categorydetail.css"
 import { useParams } from 'react-router'
 import { useState, useEffect } from 'react';
-import Loading from '../loadingpage/Loading';
-import Navbar from '../Navbar/Navbar';
+import Loading from '../loadingpage/Loading.jsx';
+import Navbar from '../Navbar/Navbar.jsx';
 import { Link } from 'react-router';
 import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 export default function Categorydetail() {

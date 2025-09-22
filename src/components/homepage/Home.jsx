@@ -2,10 +2,10 @@ import React from 'react'
 import './home.css'
 
 import Cookies from 'js-cookie';
-import Navbar from '../Navbar/Navbar';
-import Favoritespicks from '../EditorsPicks/favoritespicks';
-import Categories from '../Generesmoods/Categories';
-import Newrelease from '../Newreleases/Newrelease';
+import Navbar from '../Navbar/Navbar.jsx';
+import Favoritespicks from '../EditorsPicks/favoritespicks.jsx';
+import Categories from '../Generesmoods/Categories.jsx';
+import Newrelease from '../Newreleases/Newrelease.jsx';
 import { Navigate } from 'react-router';
 
 function Home() {

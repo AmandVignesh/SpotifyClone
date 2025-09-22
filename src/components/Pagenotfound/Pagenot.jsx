@@ -1,6 +1,6 @@
 import React from 'react'
 import "./pagenot.css"
-import Navbar from '../Navbar/Navbar'
+import Navbar from '../Navbar/Navbar.jsx'
 
 
 function Pagenot() {

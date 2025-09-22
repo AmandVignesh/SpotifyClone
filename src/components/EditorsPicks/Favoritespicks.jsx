@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import './Favoritespicks.css'
 import { Tooltip } from 'react-tooltip'
 import "react-tooltip/dist/react-tooltip.css";
-import Loading from "../loadingpage/Loading"
+import Loading from "../loadingpage/Loading.jsx"
 import { Link } from 'react-router';
 import Cookies from 'js-cookie';
-import Something from '../Somethingwent/Something';
+import Something from '../Somethingwent/Something.jsx';
 function Favoritespicks() {
   const [response1, setResponse1] = useState([]);
   const [isloading,setIsloading]  = useState(false)

@@ -3,7 +3,7 @@ import './login.css'
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Cookies from 'js-cookie';
-import Loading from '../loadingpage/Loading';
+import Loading from '../loadingpage/Loading.jsx';
 import { Navigate } from 'react-router';
 function Login() {
     const [username ,setUsername]=useState("");

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Categories.css'
 import { useState,useEffect } from 'react'
-import Loading from "../loadingpage/Loading"
+import Loading from "../loadingpage/Loading.jsx"
 import { Link } from 'react-router'
 import { Tooltip } from 'react-tooltip'
 function Categories() {

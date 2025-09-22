@@ -1,10 +1,10 @@
 import "./Newreledetail.css"
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../Navbar/Navbar.jsx';
 import { ArrowLeftIcon } from "@heroicons/react/24/solid";
 import { Link } from 'react-router-dom';
-import Loading from '../loadingpage/Loading';
+import Loading from '../loadingpage/Loading.jsx';
 
 function Newreledetail() {
   const { id } = useParams();

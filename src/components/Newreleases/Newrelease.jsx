@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import "./Newrelease.css"
 import { Tooltip } from 'react-tooltip'
 import "react-tooltip/dist/react-tooltip.css";
-import Loading from "../loadingpage/Loading"
+import Loading from "../loadingpage/Loading.jsx"
 import { Link } from 'react-router';
 function Newrelease() {
   const [response3, setResponse3] = useState([])
