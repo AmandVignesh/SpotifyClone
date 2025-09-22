@@ -16,8 +16,7 @@ function Favoritespicks() {
     setIsloading(true)
     const URL = 'https://apis2.ccbp.in/spotify-clone/featured-playlists'
     const Jwt_token = Cookies.get("jwt_token")
-    console.log(Jwt_token)
-    console.log("cam=")
+    
     const options = {
       method:"GET",
       headers:{
